@@ -1,0 +1,53 @@
+[
+    {
+      "id": 1,
+      "cover_pic": "https://c0.wallpaperflare.com/preview/483/913/258/advanced-ai-anatomy-artificial.jpg",
+      "title": "The Future of AI Remodeling the World",
+      "author": "John Doe",
+      "author_img": "https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg",
+      "posted_date": "2025-02-09",
+      "reading_time": 5,
+      "hashtags": ["AI", "Technology", "Future"]
+    },
+    {
+      "id": 2,
+      "cover_pic": "https://c4.wallpaperflare.com/wallpaper/184/515/626/digital-digital-art-artwork-illustration-drawing-hd-wallpaper-preview.jpg",
+      "title": "The Beginning and Fate of the Universe",
+      "author": "Jane Smith",
+      "author_img": "https://images.pexels.com/photos/415829/pexels-photo-415829.jpeg",
+      "posted_date": "2025-02-08",
+      "reading_time": 6,
+      "hashtags": ["Space", "Astronomy", "Science"]
+    },
+    {
+      "id": 3,
+      "cover_pic": "https://images.pexels.com/photos/270404/pexels-photo-270404.jpeg",
+      "title": "Master React and Become an In-Demand",
+      "author": "Alice Johnson",
+      "author_img": "https://images.pexels.com/photos/2381069/pexels-photo-2381069.jpeg",
+      "posted_date": "2025-02-07",
+      "reading_time": 10,
+      "hashtags": ["React", "JavaScript", "Web Development"]
+    },
+    {
+      "id": 4,
+      "cover_pic": "https://c4.wallpaperflare.com/wallpaper/885/40/839/abstract-minimalism-square-paint-splatter-wallpaper-preview.jpg",
+      "title": "The Art of Minimalism & Pursuit of Life",
+      "author": "Robert Brown",
+      "author_img": "https://images.pexels.com/photos/1036623/pexels-photo-1036623.jpeg",
+      "posted_date": "2025-02-06",
+      "reading_time": 8,
+      "hashtags": ["Minimalism", "Lifestyle", "Productivity"]
+    },
+    {
+      "id": 5,
+      "cover_pic": "https://c0.wallpaperflare.com/preview/366/129/134/ransomware-cybersecurity-cyber-security.jpg",
+      "title": "Cybersecurity and Networking in 2025",
+      "author": "Emily White",
+      "author_img": "https://images.pexels.com/photos/1181519/pexels-photo-1181519.jpeg",
+      "posted_date": "2025-02-05",
+      "reading_time": 9,
+      "hashtags": ["Cybersecurity", "Tech", "Privacy"]
+    }
+  ]
+  
