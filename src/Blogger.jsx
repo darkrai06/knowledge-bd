@@ -1,8 +1,8 @@
 import PropTypes from 'prop-types';
 import { CiBookmarkCheck } from 'react-icons/ci';
 
-const Blogger = ({ blogger, handler }) => {
-  const { cover_pic, title, author, author_img, posted_date, reading_time, hashtags } = blogger;
+const Blogger = ({ blogger, handler, reader }) => {
+  const {id, cover_pic, title, author, author_img, posted_date, reading_time, hashtags } = blogger;
 
   return (
     <div className='border-2 border-black rounded-xl p-6 flex flex-col justify-between items-start gap-4'>
@@ -30,9 +30,9 @@ const Blogger = ({ blogger, handler }) => {
         ))}
       </p>
       <u>
-        <a href='' className='text-blue-600'>
+        <button className='text-blue-600' onClick={() => reader(reading_time, id)}>
           Mark as Read
-        </a>
+        </button>
       </u>
       <h2 className='text-4xl font-extrabold'>{title}</h2>
     </div>

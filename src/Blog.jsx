@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
 import Blogger from './Blogger';
 
-const Blog = ({ handler }) => {
+const Blog = ({ handler, reader }) => {
   const [blogs, setBlogs] = useState([]);
 
   useEffect(() => {
@@ -14,7 +14,7 @@ const Blog = ({ handler }) => {
   return (
     <div className='md:w-2/3 space-y-6'>
       {blogs.map(blogger => (
-        <Blogger key={blogger.id} blogger={blogger} handler={handler} />
+        <Blogger key={blogger.id} blogger={blogger} handler={handler} reader={reader} />
       ))}
     </div>
   );

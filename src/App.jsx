@@ -6,6 +6,7 @@ import Bookmarks from './Bookmarks';
 
 function App() {
   const [bookmark, setBookmark] = useState([]);
+  const [readtime, setreadtime] = useState(0);
 
   const handler = blogger => {
    {
@@ -13,12 +14,18 @@ function App() {
     }
   };
 
+  const reader = (time, id) => {
+    setreadtime(readtime + time) ;
+    const remains = bookmark.filter(bookmark => bookmark.id!=id);
+    setBookmark(remains);
+  }
+
   return (
     <>
       <Header />
       <div className='flex justify-between gap-8'>
-        <Blog handler={handler} />
-        <Bookmarks bookmark={bookmark} />
+        <Blog handler={handler} reader={reader} />
+        <Bookmarks bookmark={bookmark} readtime={readtime}/>
       </div>
     </>
   );
